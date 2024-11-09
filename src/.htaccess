@@ -1,0 +1,29 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteRule ^davidhunter/?$ https://davidhunter.weburl.net/ [R=307,END]
+    RewriteRule ^davidhunter/(.*)$ https://davidhunter.weburl.net/$1 [R=307,END]
+    
+    RewriteRule ^staticphp/?$ https://staticphp.softwayr.net/ [R=307,END]
+    RewriteRule ^staticphp/(.*)$ https://staticphp.softwayr.net/$1 [R=307,END]
+
+    RewriteRule ^paulawhitefield/?$ https://paulawhitefield.weburl.net/ [R=307,END]
+    RewriteRule ^paulawhitefield/(.*)$ https://paulawhitefield.weburl.net/$1 [R=307,END]
+    
+    RewriteRule ^paulasworld/?$ https://paulasworld.weburl.net/ [R=307,END]
+    RewriteRule ^paulasworld/(.*)$ https://paulasworld.weburl.net/$1 [R=307,END]
+
+    RewriteRule ^angelicahenderson/?$ https://angelicahenderson.weburl.net/ [R=307,END]
+    RewriteRule ^angelicahenderson/(.*)$ https://angelicahenderson.weburl.net/$1 [R=307,END]
+    
+    RewriteRule ^littleinnocentangel/?$ https://littleinnocentangel.weburl.net/ [R=307,END]
+    RewriteRule ^littleinnocentangel/(.*)$ https://littleinnocentangel.weburl.net/$1 [R=307,END]
+
+    RewriteRule ^annewarren/?$ https://annewarren.weburl.net/ [R=307,END]
+    RewriteRule ^annewarren/(.*)$ https://annewarren.weburl.net/$1 [R=307,END]
+    
+    RewriteRule ^davecomputergeek/?$ https://davecomputergeek.weburl.net/ [R=307,END]
+    RewriteRule ^davecomputergeek/(.*)$ https://davecomputergeek.weburl.net/$1 [R=307,END]
+</IfModule>
