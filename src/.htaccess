@@ -26,4 +26,8 @@ ErrorDocument 404 /404.html
     
     RewriteRule ^davecomputergeek/?$ https://davecomputergeek.weburl.net/ [R=307,END]
     RewriteRule ^davecomputergeek/(.*)$ https://davecomputergeek.weburl.net/$1 [R=307,END]
+
+    RewriteCond %{SERVER_PORT} ^80$ [OR]
+    RewriteCond %{HTTP_HOST} !^weburl.net$
+    RewriteRule ^(.*)$ https://weburl.net/$1 [R=307,END]
 </IfModule>
