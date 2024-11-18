@@ -3,8 +3,8 @@ ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
     RewriteEngine on
 
-    RewriteRule ^davidhunter/?$ https://davidhunter.weburl.net/ [R=307,END]
-    RewriteRule ^davidhunter/(.*)$ https://davidhunter.weburl.net/$1 [R=307,END]
+    RewriteRule ^davidhunter/?$ https://www.dah5.me.uk/davidhunter/ [R=307,END]
+    RewriteRule ^davidhunter/(.*)$ https://www.dah5.me.uk/davidhunter/$1 [R=307,END]
     
     RewriteRule ^staticphp/?$ https://www.dah5.me.uk/staticphp [R=307,END]
     RewriteRule ^staticphp/(.*)$ https://www.dah5.me.uk/staticphp/$1 [R=307,END]
@@ -36,11 +36,11 @@ ErrorDocument 404 /404.html
 	RewriteRule ^networktools/?$ https://networktools.cloudhosted.net/ [R=307,END]
     RewriteRule ^networktools/(.*)$ https://networktools.cloudhosted.net/$1 [R=307,END]
 	
-	RewriteRule ^dah5/?$ https://www.dah5.com/ [R=307,END]
-    RewriteRule ^dah5/(.*)$ https://www.dah5.com/$1 [R=307,END]
+	RewriteRule ^dah5/?$ https://www.dah5.me.uk/ [R=307,END]
+    RewriteRule ^dah5/(.*)$ https://www.dah5.me.uk/$1 [R=307,END]
 	
-	RewriteRule ^staticly/?$ https://www.dah5.com/staticly [R=307,END]
-    RewriteRule ^staticly/(.*)$ https://www.dah5.com/staticly/$1 [R=307,END]
+	RewriteRule ^staticly/?$ https://www.dah5.me.uk/staticly [R=307,END]
+    RewriteRule ^staticly/(.*)$ https://www.dah5.me.uk/staticly/$1 [R=307,END]
 
     RewriteRule ^personaclix/?$ https://www.personaclix.com [R=307,END]
     RewriteRule ^personaclix/(.*)$ https://www.personaclix.com/$1 [R=307,END]
