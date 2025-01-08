@@ -2,11 +2,25 @@
 /davidhunter/blog https://www.dah5.me.uk/davidhunter/blog
 /davidhunter/projects https://www.dah5.me.uk/davidhunter/projects
 
-/staticphp https://www.uri.me.uk/tools/staticphp
-/staticphp/docs https://www.uri.me.uk/tools/staticphp/docs
+/staticphp https://staticphp.weburl.net
+/staticphp/features https://staticphp.weburl.net/features
+/staticphp/download https://staticphp.weburl.net/download
+/staticphp/docs https://staticphp.weburl.net/docs
+/staticphp/docs/getting-started https://staticphp.weburl.net/docs/getting-started
+/staticphp/docs/metadata https://staticphp.weburl.net/docs/metadata
+/staticphp/docs/functional-blocks https://staticphp.weburl.net/docs/functional-blocks
+/staticphp/docs/customisation https://staticphp.weburl.net/docs/customisation
+/staticphp/docs/html-files https://staticphp.weburl.net/docs/html-files
+/staticphp/docs/php-files https://staticphp.weburl.net/docs/php-files
+/staticphp/docs/markdown-files https://staticphp.weburl.net/docs/markdown-files
+/staticphp/docs/redirections https://staticphp.weburl.net/docs/redirections
 
 /github/staticphp https://github.com/DAH5/StaticPHP
+/github/staticphp/StaticPHP-Launcher https://github.com/DAH5/StaticPHP/raw/refs/heads/master/StaticPHP-Launcher.php
+/github/staticphp/StaticPHP https://github.com/DAH5/StaticPHP/raw/refs/heads/master/StaticPHP.php
 /gitlab/staticphp https://gitlab.com/DAH5/StaticPHP
+/gitlab/staticphp/StaticPHP-Launcher https://gitlab.com/DAH5/StaticPHP/-/raw/master/StaticPHP-Launcher.php
+/gitlab/staticphp/StaticPHP https://gitlab.com/DAH5/StaticPHP/-/raw/master/StaticPHP.php
 
 /paulawhitefield https://paulawhitefield.weburl.net
 
