@@ -2,18 +2,18 @@
 /davidhunter/blog https://www.dah5.me.uk/davidhunter/blog
 /davidhunter/projects https://www.dah5.me.uk/davidhunter/projects
 
-/staticphp https://staticphp.weburl.net
-/staticphp/features https://staticphp.weburl.net/features
-/staticphp/download https://staticphp.weburl.net/download
-/staticphp/docs https://staticphp.weburl.net/docs
-/staticphp/docs/getting-started https://staticphp.weburl.net/docs/getting-started
-/staticphp/docs/metadata https://staticphp.weburl.net/docs/metadata
-/staticphp/docs/functional-blocks https://staticphp.weburl.net/docs/functional-blocks
-/staticphp/docs/customisation https://staticphp.weburl.net/docs/customisation
-/staticphp/docs/html-files https://staticphp.weburl.net/docs/html-files
-/staticphp/docs/php-files https://staticphp.weburl.net/docs/php-files
-/staticphp/docs/markdown-files https://staticphp.weburl.net/docs/markdown-files
-/staticphp/docs/redirections https://staticphp.weburl.net/docs/redirections
+/staticphp https://staticphp.io
+/staticphp/features https://staticphp.io/features
+/staticphp/download https://staticphp.io/download
+/staticphp/docs https://staticphp.io/docs
+/staticphp/docs/getting-started https://staticphp.io/docs/getting-started
+/staticphp/docs/metadata https://staticphp.io/docs/metadata
+/staticphp/docs/functional-blocks https://staticphp.io/docs/functional-blocks
+/staticphp/docs/customisation https://staticphp.io/docs/customisation
+/staticphp/docs/html-files https://staticphp.io/docs/html-files
+/staticphp/docs/php-files https://staticphp.io/docs/php-files
+/staticphp/docs/markdown-files https://staticphp.io/docs/markdown-files
+/staticphp/docs/redirections https://staticphp.io/docs/redirections
 
 /github/staticphp https://github.com/DAH5/StaticPHP
 /github/staticphp/StaticPHP-Launcher https://github.com/DAH5/StaticPHP/raw/refs/heads/master/StaticPHP-Launcher.php
