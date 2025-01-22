@@ -6,8 +6,8 @@ ErrorDocument 404 /404.html
     RewriteRule ^davidhunter/?$ https://www.dah5.me.uk/davidhunter/ [R=307,END]
     RewriteRule ^davidhunter/(.*)$ https://www.dah5.me.uk/davidhunter/$1 [R=307,END]
     
-    RewriteRule ^staticphp/?$ https://staticphp.weburl.net/ [R=307,END]
-    RewriteRule ^staticphp/(.*)$ https://staticphp.weburl.net/$1 [R=307,END]
+    RewriteRule ^staticphp/?$ https://staticphp.com/ [R=307,END]
+    RewriteRule ^staticphp/(.*)$ https://staticphp.com/$1 [R=307,END]
 
     RewriteRule ^github/staticphp/?$ https://github.com/DAH5/StaticPHP [R=307,END]
     RewriteRule ^github/staticphp/(.*)$ https://github.com/DAH5/StaticPHP [R=307,END]
