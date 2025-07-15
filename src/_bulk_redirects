@@ -2,18 +2,19 @@
 /davidhunter/blog https://www.dah5.me.uk/davidhunter/blog
 /davidhunter/projects https://www.dah5.me.uk/davidhunter/projects
 
-/staticphp https://staticphp.dah5.me.uk
-/staticphp/features https://staticphp.dah5.me.uk/features
-/staticphp/download https://staticphp.dah5.me.uk/download
-/staticphp/docs https://staticphp.dah5.me.uk/docs
-/staticphp/docs/getting-started https://staticphp.dah5.me.uk/docs/getting-started
-/staticphp/docs/metadata https://staticphp.dah5.me.uk/docs/metadata
-/staticphp/docs/functional-blocks https://staticphp.dah5.me.uk/docs/functional-blocks
-/staticphp/docs/customisation https://staticphp.dah5.me.uk/docs/customisation
-/staticphp/docs/html-files https://staticphp.dah5.me.uk/docs/html-files
-/staticphp/docs/php-files https://staticphp.dah5.me.uk/docs/php-files
-/staticphp/docs/markdown-files https://staticphp.dah5.me.uk/docs/markdown-files
-/staticphp/docs/redirections https://staticphp.dah5.me.uk/docs/redirections
+/staticphp https://www.staticphp.com
+/staticphp/features https://www.staticphp.com/features.html
+/staticphp/download https://www.staticphp.com/download.html
+/staticphp/docs https://www.staticphp.com/docs
+/staticphp/docs/getting-started https://www.staticphp.com/docs/Getting-Started.html
+/staticphp/docs/metadata https://www.staticphp.com/docs/MetaData.html
+/staticphp/docs/functional-blocks https://www.staticphp.com/docs/Functional-Blocks.html
+/staticphp/docs/customisation https://www.staticphp.com/docs/Customisation.html
+/staticphp/docs/html-files https://www.staticphp.com/docs/HTML-Files.html
+/staticphp/docs/php-files https://www.staticphp.com/docs/PHP-Files.html
+/staticphp/docs/markdown-files https://www.staticphp.com/docs/Markdown-Files.html
+/staticphp/docs/redirections https://www.staticphp.com/docs/Redirections.html
+/staticphp/docs/remote-content https://www.staticphp.com/docs/Remote-Content.html
 
 /github/staticphp https://github.com/DAH5/StaticPHP
 /github/staticphp/StaticPHP-Launcher https://github.com/DAH5/StaticPHP/raw/refs/heads/master/StaticPHP-Launcher.php
