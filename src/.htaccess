@@ -15,6 +15,15 @@ ErrorDocument 404 /404.html
     RewriteRule ^gitlab/staticphp/?$ https://gitlab.com/DAH5/StaticPHP [R=307,END]
     RewriteRule ^gitlab/staticphp/(.*)$ https://gitlab.com/DAH5/StaticPHP [R=307,END]
 
+    RewriteRule ^bytesprite/?$ https://www.bytesprite.net/ [R=307,END]
+    RewriteRule ^bytesprite/(.*)$ https://www.bytesprite.net/$1 [R=307,END]
+
+    RewriteRule ^github/bytesprite/?$ https://github.com/DAH5/ByteSprite-Website [R=307,END]
+    RewriteRule ^github/bytesprite/(.*)$ https://github.com/DAH5/ByteSprite-Website [R=307,END]
+
+    RewriteRule ^gitlab/bytesprite/?$ https://github.com/DAH5/ByteSprite-Website [R=307,END]
+    RewriteRule ^gitlab/bytesprite/(.*)$ https://gitlab.com/DAH5/ByteSprite-Website [R=307,END]
+
     RewriteRule ^paulawhitefield/?$ https://paulawhitefield.weburl.net/ [R=307,END]
     RewriteRule ^paulawhitefield/(.*)$ https://paulawhitefield.weburl.net/$1 [R=307,END]
     
