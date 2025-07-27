@@ -5,6 +5,9 @@ ErrorDocument 404 /404.html
 
     RewriteRule ^davidhunter/?$ https://www.dah5.me.uk/davidhunter/ [R=307,END]
     RewriteRule ^davidhunter/(.*)$ https://www.dah5.me.uk/davidhunter/$1 [R=307,END]
+
+    RewriteRule ^github/davidhunterscot/?$ https://github.com/DavidHunterScot [R=307,END]
+    RewriteRule ^github/davidhunterscot/website/?$ https://github.com/DavidHunterScot/DavidHunterScot-Website [R=307,END]
     
     RewriteRule ^staticphp/?$ https://www.staticphp.com/ [R=307,END]
     RewriteRule ^staticphp/(.*)$ https://www.staticphp.com/$1 [R=307,END]
