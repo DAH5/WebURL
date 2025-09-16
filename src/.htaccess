@@ -3,8 +3,15 @@ ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
     RewriteEngine on
 
-    RewriteRule ^davidhunter/?$ https://www.dah5.me.uk/davidhunter/ [R=307,END]
-    RewriteRule ^davidhunter/(.*)$ https://www.dah5.me.uk/davidhunter/$1 [R=307,END]
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=307,END]
+
+    RewriteCond %{HTTP_HOST} ^weburl.net$
+    RewriteRule ^(.*)$ https://www.weburl.net/$1 [R=307,END]
+
+    RewriteRule ^davidhunter/?$ https://davidhunter.weburl.net/ [R=307,END]
+    RewriteRule ^davidhunter/(.*)$ https://davidhunter.weburl.net/$1 [R=307,END]
 
     RewriteRule ^github/davidhunterscot/?$ https://github.com/DavidHunterScot [R=307,END]
     RewriteRule ^github/davidhunterscot/website/?$ https://github.com/DavidHunterScot/DavidHunterScot-Website [R=307,END]
@@ -48,11 +55,11 @@ ErrorDocument 404 /404.html
 	RewriteRule ^networktools/?$ https://networktools.cloudhosted.net/ [R=307,END]
     RewriteRule ^networktools/(.*)$ https://networktools.cloudhosted.net/$1 [R=307,END]
 	
-	RewriteRule ^dah5/?$ https://www.dah5.me.uk/ [R=307,END]
-    RewriteRule ^dah5/(.*)$ https://www.dah5.me.uk/$1 [R=307,END]
+	RewriteRule ^dah5/?$ https://www.dah5.com/ [R=307,END]
+    RewriteRule ^dah5/(.*)$ https://www.dah5.com/$1 [R=307,END]
 	
-	RewriteRule ^staticly/?$ https://www.dah5.me.uk/staticly [R=307,END]
-    RewriteRule ^staticly/(.*)$ https://www.dah5.me.uk/staticly/$1 [R=307,END]
+	RewriteRule ^staticly/?$ https://www.dah5.com/staticly [R=307,END]
+    RewriteRule ^staticly/(.*)$ https://www.dah5.com/staticly/$1 [R=307,END]
 
     RewriteRule ^personaclix/?$ https://www.personaclix.com [R=307,END]
     RewriteRule ^personaclix/(.*)$ https://www.personaclix.com/$1 [R=307,END]
@@ -62,8 +69,4 @@ ErrorDocument 404 /404.html
 
     RewriteRule ^uptimestatus/?$ https://stats.uptimerobot.com/A6BwOUZzLG [R=307,END]
     RewriteRule ^uptimestatus/(.*)$ https://stats.uptimerobot.com/A6BwOUZzLG [R=307,END]
-
-    RewriteCond %{SERVER_PORT} ^80$ [OR]
-    RewriteCond %{HTTP_HOST} !^weburl.net$
-    RewriteRule ^(.*)$ https://weburl.net/$1 [R=307,END]
 </IfModule>
